@@ -1,15 +1,15 @@
 
-# Facial Recognition System
+# 😷 Face Mask Detection System 😷
 
-Facial recognition systems are automated technologies that can identify or verify a person's identity using their facial features. These systems use algorithms and machine learning to analyze and compare facial images with a database of known faces to determine if there is a match.
+A face mask detection is a system that is capable of detecting if one or more individuals is wearing a face mask. This project recognizes and displays the number of faces detected, the number of peaople wearing the face mask correctly, incorrectly or not in a picture. With the increasing number of COVID-19 victims, it is pivotal to integrate systems capable of detecting people wearing a face mask properly or not, this will help curtail the virus. I humbly ask that we obey the rules set aside and wear face mask correctly to reduce the risk of spreading the virus.
 
 
 ![](mask_det.gif)  
 
 ## Acknowledgements
 
- - [A Review of Face Recognition Technology](https://www.researchgate.net/publication/343118558_A_Review_of_Face_Recognition_Technology)
- - [Design and Implementation of a Real-Time Face Recognition System Based on Artificial Intelligence Techniques](https://www.researchgate.net/publication/366113631_Design_and_Implementation_of_a_Real-Time_Face_Recognition_System_Based_on_Artificial_Intelligence_Techniques)
+ - [The coronavirus disease 2019 (COVID-19) pandemic](https://www.researchgate.net/publication/340856011_The_coronavirus_disease_2019_COVID-19_pandemic)
+ - [Face Mask Detector](https://www.researchgate.net/publication/344173985_Face_Mask_Detector)
 
 
 
@@ -17,13 +17,13 @@ Facial recognition systems are automated technologies that can identify or verif
 
 This solution provides the following:
 
-- Face recognition accuracy 99.38% 
-- Ability to identify multiple people at once in real time based on one or more reference images.
-- Ability to track and assign a unique identifier to each person in the camera image or video. 
-- Ability to return a similarity measured between detected faces and reference faces.
+- Face mask detection accuracy of 94% 
+- Ability to identify multiple people at once in real time.
+- Ability to track and identify if the face mask is put on correctly. 
+
 ## Business Case
 ​
-Can be used in access control systems or Online Proctoring systems for student authentication or bank authentication
+Can be used in Hospitals, Airports, Banks, Schools and Organizations 
 ## Technical details 
 
 **Input 1 (video or image to process, capable of processing):** ​​
@@ -49,7 +49,7 @@ Reference images to which the system compares the faces in the image. (.png, .jp
 
 - Processed video frame
 
-- The faces in the frame (bounding boxes)
+- The faces in the frame (bounding boxes) showing whether face mask is worn or not.
 
 **For each face:**
 
@@ -72,12 +72,26 @@ This project is used by the following:
 
 ## Tech Stack
 
-- Dlib, Numpy, OpenCV, Flask
+- Dlib, Numpy, OpenCV, Flask, Tensorflow, Keras, Pickle
 ## How to use 
 
-- pip install requirements.txt
+- Clone the repo
+$ git clone https://github.com/Davisonyeas/mask_detection.git
 
-- python app.py
+- Change your directory to the cloned repo and create a Python virtual environment named 'mask'
+$ mkvirtualenv test
+
+- Now, run the following command in your Terminal/Command Prompt to install the libraries required
+$ pip3 install -r requirements.txt
+
+👏 Congratulations
+Feel free to mail me for any doubts/query ✉️ davisonyeas1@gmail.com
+
+🤝 Contribution
+Feel free to file a new issue with a respective title and description on the this mask detection repository. If you already found a solution to your problem, I would love to review your pull request!
+
+❤️ Owner
+Made by Davis Onyeoguzoro
 
 
 ## Connect
