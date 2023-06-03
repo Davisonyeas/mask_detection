@@ -74,6 +74,8 @@ $ mkvirtualenv mask
 - Now, run the following command in your Terminal/Command Prompt to install the libraries required
 $ pip3 install -r requirements.txt
 
+python app.py
+
 ## 👏 Congratulations
 You have completed a Computer Vision project that can now be deployed.
 
