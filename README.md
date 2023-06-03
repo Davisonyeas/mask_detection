@@ -80,7 +80,7 @@ You have completed a Computer Vision project that can now be deployed.
 ## 🤝 Contribution
 Feel free to file a new issue with a respective title and description on the this mask detection repository. If you already found a solution to your problem, I would love to review your pull request!
 
-❤️ Owner
+## ❤️ Owner
 Made by Davis Onyeoguzoro
 
 
