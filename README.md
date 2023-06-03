@@ -51,17 +51,7 @@ Reference images to which the system compares the faces in the image. (.png, .jp
 
 - The faces in the frame (bounding boxes) showing whether face mask is worn or not.
 
-**For each face:**
 
-- Unique Tracking ID (when processing a video file, the same ID on each frame belongs to the same person)
-
-- The most similar reference face ID
-
-- Degree of similarity to the reference face
-
-- Up to 5 facial landmark points
-
-- The system is able to to write the processed video to a video file. 
 ## Used By
 
 This project is used by the following:
@@ -79,15 +69,15 @@ This project is used by the following:
 $ git clone https://github.com/Davisonyeas/mask_detection.git
 
 - Change your directory to the cloned repo and create a Python virtual environment named 'mask'
-$ mkvirtualenv test
+$ mkvirtualenv mask
 
 - Now, run the following command in your Terminal/Command Prompt to install the libraries required
 $ pip3 install -r requirements.txt
 
-👏 Congratulations
-Feel free to mail me for any doubts/query ✉️ davisonyeas1@gmail.com
+## 👏 Congratulations
+You have completed a Computer Vision project that can now be deployed.
 
-🤝 Contribution
+## 🤝 Contribution
 Feel free to file a new issue with a respective title and description on the this mask detection repository. If you already found a solution to your problem, I would love to review your pull request!
 
 ❤️ Owner
@@ -96,6 +86,6 @@ Made by Davis Onyeoguzoro
 
 ## Connect
 
-For support, email davisonyeas1@gmail.com
+Feel free to mail me for any doubts/query ✉️ davisonyeas1@gmail.com
 
 Follow me on LinkedIn, https://www.linkedin.com/in/davis-onyeoguzoro/
